@@ -5,26 +5,106 @@
           Projeto exemplo
         </title>
 
+        <link rel="stylesheet" href="../assets/css/list.css" />
         <link rel="stylesheet" href="../assets/css/style.css" />
-
       </head>
       
       <body>
         <header>
-          <img src="../assets/img/logo.png" />
+          <img src="../assets/img/logo.png" sizes="(max-width: 364px) 50vw, 500px" weight="200" width="220"/>
         </header>
 
         <div class="Menu"> 
-          <a href="/src/index.html">
+          <a href="../index.html">
             Listagem
           </a>
-          <a href="/src/form.html">
-          Cadastrar
-        </a>
+
+          <a href="form.html">
+            Cadastrar
+          </a>
+         
         </div>
            
           <section>
-          Listagem de alunos
+            <table class="lista"> 
+              <tr>
+                  <td style="width:20%;">
+                      Nome
+                  </td>
+                  <td style="width:20%;">
+                      Telefone
+                  </td>
+                  <td style="width:20%;">
+                      Experiência Prévia
+                  </td>
+                  <td style="width:10%;">
+                      Ações
+                  </td>
+              </tr>
+              
+              <tr>
+                  <td>
+                      Fabiana Cristina de Oliveira Souza
+                  </td>
+                  <td>
+                     (11) 99823-5331
+                  </td>
+                  <td>
+                      Sim
+                  </td>
+                  <td>
+                      <button> Alterar </button>
+                  </td>
+              </tr>
+
+              <tr style="background-color: #eee">
+                <td>
+                    José de Alencar Vieira
+                </td>
+                <td>
+                   (11) 9253-5551
+                </td>
+                <td>
+                    Sim
+                </td>
+                <td>
+                    <button> Alterar </button>
+                </td>
+            </tr>
+
+            <tr>
+              <td>
+                  Gabriel Augusto Silva
+              </td>
+              <td>
+                 (11) 9722-6781
+              </td>
+              <td>
+                 Não
+              </td>
+              <td>
+                  <button> Alterar </button>
+              </td>
+          </tr>
+
+          <tr style="background-color: #eee">
+            <td >
+                Adriana Avelar Siqueira
+            </td>
+            <td>
+               (11) 9124-5581
+            </td>
+            <td>
+               Não
+            </td>
+            <td>
+                <button> Alterar </button>
+            </td>
+        </tr>
+               
+            </table>   
+             
+          </table>   
         </section>
       
       </body>
